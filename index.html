@@ -527,8 +527,6 @@
             }, 300);
             localStorage.setItem('disclaimerClosed', 'true');
         }
-
-        // Check if disclaimer was previously closed
         if (localStorage.getItem('disclaimerClosed') === 'true') {
             document.getElementById('disclaimer').style.display = 'none';
         }
